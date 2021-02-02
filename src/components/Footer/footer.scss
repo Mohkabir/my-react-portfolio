@@ -1,0 +1,50 @@
+.footer{
+  border-top: 4px solid;
+  background-color: black;
+  overflow-x: hidden;
+  margin-top: 2em;
+  p{
+    animation-name: 
+    copyright;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    color: aliceblue;
+    animation-timing-function: linear;
+    margin: 1em 0;
+    text-align: center;
+  }
+}
+
+
+@keyframes copyright{
+  0%{ transform: translateX(-300px)}
+
+  100%{transform: translateX(300px)}
+}
+
+
+@media  (min-width: 800px){
+  .footer{
+    border-top: 4px solid;
+    background-color: black;
+    overflow-x: hidden;
+    margin-top: 2em;
+    p{
+      animation-name: 
+      copyright;
+      animation-duration: 10s;
+      animation-iteration-count: infinite;
+      color: aliceblue;
+      animation-timing-function: linear;
+      margin: 1em 0;
+      text-align: center;
+    }
+  }
+  
+  
+  @keyframes copyright{
+    0%{ transform: translateX(-800px)}
+  
+    100%{transform: translateX(800px)}
+  }
+}

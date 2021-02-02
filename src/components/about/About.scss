@@ -1,0 +1,60 @@
+.about{
+  color: aliceblue;
+  padding: 2em 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url("../../images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  h2{
+    color: darkgrey;
+    text-align: center;
+    border-bottom: 4px solid grey ;
+    width: 40%;
+    margin: 0.5em auto;
+    padding-bottom: 7px;
+  }
+  h3{
+    text-align: center;
+    color: darkgrey;
+  }
+
+  
+
+}
+.paraslide{
+ animation-name: viewpara;
+ animation-duration: 1s;
+ animation-timing-function: linear;
+}
+
+@keyframes viewpara {
+  0% {
+    transform: translateX(-300px)
+  }
+
+  100% {
+    transform: translateX(1px)
+  }
+}
+
+@media (min-width:400px){
+  .about{
+   width: 100%;
+   padding: 2em 3em;
+   margin: 0 auto;
+  }
+
+}
+@media (min-width:800px){
+  .about{
+   padding: 2em 7em;
+  }
+
+}
+@media (min-width:900px){
+  .about{
+   padding: 2em 18em;
+  }
+
+}

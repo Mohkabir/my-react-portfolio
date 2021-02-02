@@ -1,0 +1,75 @@
+.about {
+  color: aliceblue;
+  padding: 2em 1em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-image: url("../../images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.about h2 {
+  color: darkgrey;
+  text-align: center;
+  border-bottom: 4px solid grey;
+  width: 40%;
+  margin: 0.5em auto;
+  padding-bottom: 7px;
+}
+
+.about h3 {
+  text-align: center;
+  color: darkgrey;
+}
+
+.paraslide {
+  -webkit-animation-name: viewpara;
+          animation-name: viewpara;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes viewpara {
+  0% {
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
+  }
+  100% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+}
+
+@keyframes viewpara {
+  0% {
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
+  }
+  100% {
+    -webkit-transform: translateX(1px);
+            transform: translateX(1px);
+  }
+}
+
+@media (min-width: 400px) {
+  .about {
+    width: 100%;
+    padding: 2em 3em;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .about {
+    padding: 2em 7em;
+  }
+}
+
+@media (min-width: 900px) {
+  .about {
+    padding: 2em 18em;
+  }
+}
+/*# sourceMappingURL=About.css.map */

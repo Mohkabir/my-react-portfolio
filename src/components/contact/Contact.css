@@ -1,0 +1,32 @@
+.contact {
+  text-align: center;
+  color: darkgrey;
+}
+
+.contact h2 {
+  border-bottom: 4px solid grey;
+  width: 50%;
+  margin: 0.5em auto;
+  padding-bottom: 7px;
+}
+
+.contact span {
+  color: #5a4a4a;
+  font-size: 30px;
+  width: 40px;
+  background-color: lightgray;
+  margin: 0.2em;
+  border-radius: 30px;
+  padding: 4px;
+  text-align: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.contact span:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  background-color: #312f2f;
+  color: honeydew;
+}
+/*# sourceMappingURL=Contact.css.map */

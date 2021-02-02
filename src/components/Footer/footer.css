@@ -1,0 +1,85 @@
+.footer {
+  border-top: 4px solid;
+  background-color: black;
+  overflow-x: hidden;
+  margin-top: 2em;
+}
+
+.footer p {
+  -webkit-animation-name: copyright;
+          animation-name: copyright;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  color: aliceblue;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  margin: 1em 0;
+  text-align: center;
+}
+
+@-webkit-keyframes copyright {
+  0% {
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
+  }
+  100% {
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
+  }
+}
+
+@keyframes copyright {
+  0% {
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
+  }
+  100% {
+    -webkit-transform: translateX(300px);
+            transform: translateX(300px);
+  }
+}
+
+@media (min-width: 800px) {
+  .footer {
+    border-top: 4px solid;
+    background-color: black;
+    overflow-x: hidden;
+    margin-top: 2em;
+  }
+  .footer p {
+    -webkit-animation-name: copyright;
+            animation-name: copyright;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    color: aliceblue;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    margin: 1em 0;
+    text-align: center;
+  }
+  @-webkit-keyframes copyright {
+    0% {
+      -webkit-transform: translateX(-800px);
+              transform: translateX(-800px);
+    }
+    100% {
+      -webkit-transform: translateX(800px);
+              transform: translateX(800px);
+    }
+  }
+  @keyframes copyright {
+    0% {
+      -webkit-transform: translateX(-800px);
+              transform: translateX(-800px);
+    }
+    100% {
+      -webkit-transform: translateX(800px);
+              transform: translateX(800px);
+    }
+  }
+}
+/*# sourceMappingURL=footer.css.map */

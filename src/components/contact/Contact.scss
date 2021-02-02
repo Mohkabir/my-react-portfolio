@@ -1,0 +1,32 @@
+.contact{
+  text-align: center;
+  color: darkgrey;
+  h2{
+    border-bottom: 4px solid grey ;
+    width: 50%;
+    margin: 0.5em auto;
+    padding-bottom: 7px;
+  }
+  .info{
+    margin: 0;
+    padding: 0;
+    font-size: 0.8em;
+    color: #ffffff;
+  }
+  span{
+    color: rgb(90, 74, 74);
+    font-size: 30px;
+    width: 40px;
+    background-color: lightgray;
+    margin: 0.2em;
+    border-radius: 30px;
+    padding: 4px;
+    text-align: center;
+    transition: 1s;
+    &:hover{
+      transform: rotate(360deg);
+      background-color: rgb(49, 47, 47);
+      color: honeydew;
+    }
+  }
+}
