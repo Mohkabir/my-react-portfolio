@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c2165c04ce2656705f081a9889d40ce2",
+    "revision": "12848150eae2bb57068e5fb609aa3c16",
     "url": "/my-react-portfolio/index.html"
   },
   {
-    "revision": "b483b76b0c9484b6e7f1",
+    "revision": "448c08744ebedd08ecc8",
     "url": "/my-react-portfolio/static/css/main.9c922ed8.chunk.css"
   },
   {
-    "revision": "d7675c1f9d5158fb7e12",
-    "url": "/my-react-portfolio/static/js/2.8a19b518.chunk.js"
+    "revision": "93bff02bc1824ea64eca",
+    "url": "/my-react-portfolio/static/js/2.e9221a0a.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/my-react-portfolio/static/js/2.8a19b518.chunk.js.LICENSE.txt"
+    "url": "/my-react-portfolio/static/js/2.e9221a0a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b483b76b0c9484b6e7f1",
-    "url": "/my-react-portfolio/static/js/main.fb63d681.chunk.js"
+    "revision": "448c08744ebedd08ecc8",
+    "url": "/my-react-portfolio/static/js/main.fdca96e2.chunk.js"
   },
   {
     "revision": "ec2cea4cec0e3ff072ce",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "024407d9eb3c93f2aa8a78a542e2224a",
     "url": "/my-react-portfolio/static/media/bg7.024407d9.jpg"
+  },
+  {
+    "revision": "47f6214b76e6b9daa88fc10158ac4d05",
+    "url": "/my-react-portfolio/static/media/hr-html.47f6214b.png"
+  },
+  {
+    "revision": "d9685bc573a8290c8f735b56172781b7",
+    "url": "/my-react-portfolio/static/media/hr-react.d9685bc5.png"
   },
   {
     "revision": "b98d8151745ba6887683b493526eaca4",
@@ -46,13 +54,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "411300ae851e4247306b489b7fcb93e4",
     "url": "/my-react-portfolio/static/media/thumb3.411300ae.jpg"
-  },
-  {
-    "revision": "4e9a93df9c3437a872c27993e5eecc91",
-    "url": "/my-react-portfolio/static/media/thumb4.4e9a93df.png"
-  },
-  {
-    "revision": "f832a225093a1edd62876c1bdfd24183",
-    "url": "/my-react-portfolio/static/media/thumb5.f832a225.png"
   }
 ]);
