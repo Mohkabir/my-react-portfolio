@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12848150eae2bb57068e5fb609aa3c16",
+    "revision": "417f51dfc5fe18d53abdbf880cc06ee0",
     "url": "/my-react-portfolio/index.html"
   },
   {
-    "revision": "448c08744ebedd08ecc8",
-    "url": "/my-react-portfolio/static/css/main.9c922ed8.chunk.css"
+    "revision": "3d346faf0de859f5892e",
+    "url": "/my-react-portfolio/static/css/main.afb3747d.chunk.css"
   },
   {
-    "revision": "93bff02bc1824ea64eca",
-    "url": "/my-react-portfolio/static/js/2.e9221a0a.chunk.js"
+    "revision": "1ec8e551ece465ad689c",
+    "url": "/my-react-portfolio/static/js/2.89423688.chunk.js"
   },
   {
     "revision": "570d362d673dab785e62d2b8563e1118",
-    "url": "/my-react-portfolio/static/js/2.e9221a0a.chunk.js.LICENSE.txt"
+    "url": "/my-react-portfolio/static/js/2.89423688.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "448c08744ebedd08ecc8",
-    "url": "/my-react-portfolio/static/js/main.fdca96e2.chunk.js"
+    "revision": "3d346faf0de859f5892e",
+    "url": "/my-react-portfolio/static/js/main.280aecea.chunk.js"
   },
   {
     "revision": "ec2cea4cec0e3ff072ce",
     "url": "/my-react-portfolio/static/js/runtime-main.4b8d4a51.js"
+  },
+  {
+    "revision": "924186c20ac3693498d7b1fc3a431caf",
+    "url": "/my-react-portfolio/static/media/app-scheduler.924186c2.jpg"
   },
   {
     "revision": "a8e8bb6cef88e68fb07785d091f17d73",
@@ -32,12 +36,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-react-portfolio/static/media/bg7.024407d9.jpg"
   },
   {
-    "revision": "47f6214b76e6b9daa88fc10158ac4d05",
-    "url": "/my-react-portfolio/static/media/hr-html.47f6214b.png"
+    "revision": "268d8fe8af6e55a00a2d9e5394cd8d55",
+    "url": "/my-react-portfolio/static/media/hr-html1.268d8fe8.png"
   },
   {
     "revision": "d9685bc573a8290c8f735b56172781b7",
     "url": "/my-react-portfolio/static/media/hr-react.d9685bc5.png"
+  },
+  {
+    "revision": "a1889114a3eec10a9abc9c467c6f27c0",
+    "url": "/my-react-portfolio/static/media/movie-list.a1889114.jpg"
   },
   {
     "revision": "b98d8151745ba6887683b493526eaca4",
