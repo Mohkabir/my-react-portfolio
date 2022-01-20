@@ -4,12 +4,14 @@
   font-size: 14px;
 }
 .App{
-  background-color: #0E0E0E;
+  background-color: #000000;
   position: relative;
+
 }
 
 @media (min-width: 800px){
   .App{
     padding: 0em;
+    
   }
 }
